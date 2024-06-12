@@ -15,7 +15,8 @@ def save_to_csv(questions, language):
 
 # Main Streamlit app
 def main():
-    st.title("Question Storage App")
+    st.title("Posez vos question sans attendre la réponse")
+    st.text("cette paltefrom est dédier pour la receuil des question ")
 
     language = st.radio("Select language:", ('French', 'Arabic'))
 
